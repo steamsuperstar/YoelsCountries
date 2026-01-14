@@ -24,6 +24,10 @@
           "value": "max-age=63072000; includeSubDomains; preload"
         },
         {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; font-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
         }
